@@ -1,0 +1,115 @@
+body {
+  background-color: #f9fafc; /*light blue*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  list-style-type: none;
+  float: right;
+  color: #69696a;/*light grey*/
+  margin-top: 3px;
+}
+
+li {
+  display: inline;
+  margin: 5px;
+  padding: 10px 25px;
+}
+
+li:hover {
+  background-color: #000; /*black*/
+  color: white;
+  border-radius: 25px;
+}
+
+.hireus {
+  color: white;
+  background-color: #000; /*black*/
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-top: 1px;
+}
+
+.chirpus {
+  color: #000; /*black*/
+  margin-top: 10px;
+  margin-left: 18px;
+  font-weight: bold;
+}
+
+.filler {
+  border-left: 2px solid #69696a;/*light grey*/
+  width: 525px;
+  color: #69696a;
+  padding-left: 20px;
+  float: left;
+  margin-left: 20px;
+}
+
+.top {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.clear {
+  clear: both;
+}
+
+h2 {
+  color: #000; /*black*/
+  margin-left: 18px;
+  margin-top: 120px;
+}
+
+.circleparty {
+  float: right;
+  position: relative;
+  height: 700px;
+  width: 415px;
+}
+
+#circle1 /*purple*/ {
+  height: 110px;
+  width: 110px;
+  border-radius: 250px;
+  background-color: rgba(207, 130, 213, 0.6);/*purple*/
+  position: absolute;
+  left: 192px;
+  top: 31px;
+
+}
+
+#circle2 /*peach*/ {
+  height: 135px;
+  width: 135px;
+  border-radius: 250px;
+  background-color: rgba(247, 193, 162, 0.7);/*peach*/
+  position: absolute;
+  top: 119px;
+  left: 168px;
+}
+
+#circle3 /*pink*/ {
+  height: 230px;
+  width: 230px;
+  border-radius: 250px;
+  background-color: rgba(247, 136, 167, 0.6); /*pink*/
+  position: absolute;
+}
+
+footer {
+  clear: both;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type="button"] {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: #000; /*black*/
+  border-radius: 25px;
+  padding: 10px 15px;
+  margin-top: 1px;
+}
